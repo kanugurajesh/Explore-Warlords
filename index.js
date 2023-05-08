@@ -4,10 +4,6 @@ var sound = new Howl({
     src: ['./songs/fight.mp3']
 });
 
-// sound.play();
-
-// get all the images with class item-img
-
 const itemImg = document.querySelectorAll('.item-img');
 
 // get all the images with class item-img and add event listener
