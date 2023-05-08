@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+main {
+    width: 100%;
+}
+
+.item {
+    width: 520px;
+    /* height: 250px; */
+}
+
+.item img {
+    padding: 0;
+    margin: 0;
+    width: 520px;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
