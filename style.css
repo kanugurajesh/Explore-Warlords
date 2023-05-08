@@ -20,7 +20,7 @@ body {
 
 .item {
     width: 400px;
-    position: relative !important;
+    position: relative;
 }
 
 header {
@@ -45,6 +45,7 @@ header {
 
 main {
     width: 400px;
+    /* position: relative; */
 }
 
 #first {
@@ -117,4 +118,27 @@ button {
     color: white;
     font-size: 25px;
     font-weight: 600;
+}
+
+.image-png {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.image-png img {
+    width: 50%;
+    margin: auto;
+}
+
+.image-png:hover {
+    cursor: pointer;
+    scale: 1.1;
 }
