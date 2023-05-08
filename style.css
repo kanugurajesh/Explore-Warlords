@@ -19,13 +19,13 @@ body {
 }
 
 .item {
-    width: 520px;
+    width: 400px;
 }
 
 header {
-    width: 520px;
+    width: 400px;
     height: 100px;
-    padding: 40px 60px;
+    padding: 40px 25px;
     box-sizing: border-box;
     background-color: black;
     color: white;
@@ -36,18 +36,19 @@ header {
 .item img {
     padding: 0;
     margin: 0;
-    width: 520px;
-    height: 550px;
+    width: 400px;
+    height: 400px;
+    /* cover the entire page */
     object-fit: cover;
     object-position: center;
 }
 
 main {
-    width: 520px;
+    width: 400px;
 }
 
 #first {
     width: 100%;
-    padding: 100px 60px;
+    padding: 100px 25px;
     font-size: 40px;
 }
