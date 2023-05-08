@@ -11,15 +11,26 @@ body {
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
     background-color: #f5f5f5;
-}
-
-main {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    overflow-x: hidden;
 }
 
 .item {
     width: 520px;
-    /* height: 250px; */
+}
+
+header {
+    width: 520px;
+    height: 100px;
+    padding: 40px 60px;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    line-height: 20px;
+    font-size: 20px;
 }
 
 .item img {
@@ -29,4 +40,14 @@ main {
     height: 550px;
     object-fit: cover;
     object-position: center;
+}
+
+main {
+    width: 520px;
+}
+
+#first {
+    width: 100%;
+    padding: 100px 60px;
+    font-size: 40px;
 }
