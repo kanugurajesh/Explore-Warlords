@@ -37,7 +37,7 @@ header {
     padding: 0;
     margin: 0;
     width: 400px;
-    height: 400px;
+    height: 320px;
     /* cover the entire page */
     object-fit: cover;
     object-position: center;
@@ -51,4 +51,12 @@ main {
     width: 100%;
     padding: 100px 25px;
     font-size: 40px;
+}
+
+.caption p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    /* give padding top and left */
+    padding: 30px 0 0 30px;
 }
