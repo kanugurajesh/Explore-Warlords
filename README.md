@@ -1,3 +1,9 @@
+#### ⭐ star this repo if you like it
+
+<div align="center">
+  <img src="https://github.com/kanugurajesh/Explore-Warlords/assets/120458029/5649f7e3-76b0-41a6-b068-4c1e0034c7ef" alt="" width=150 height=150>
+</div>
+
 # Warlords Project
 
 ## Overview
